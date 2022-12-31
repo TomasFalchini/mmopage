@@ -11,7 +11,7 @@ function Landing() {
         <div className="max-w-xl text-center sm:text-left">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
             Let us find your
-            <strong className="block font-extrabold text-rose-700">
+            <strong className="block font-extrabold text-sky-800">
               Forever Home.
             </strong>
           </h1>
@@ -24,16 +24,9 @@ function Landing() {
           <div className="mt-8 flex flex-wrap gap-4 text-center">
             <a
               href="#"
-              className="block w-full rounded bg-rose-600 px-12 py-3 text-sm font-medium text-white shadow hover:bg-rose-700 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
+              className="block w-full rounded bg-sky-700 px-12 py-3 text-sm font-medium text-white shadow hover:bg-sky-500 focus:outline-none focus:ring active:bg-rose-500 sm:w-auto"
             >
-              Get Started
-            </a>
-
-            <a
-              href="#"
-              className="block w-full rounded bg-white px-12 py-3 text-sm font-medium text-rose-600 shadow hover:text-rose-700 focus:outline-none focus:ring active:text-rose-500 sm:w-auto"
-            >
-              Learn More
+              Contactarme
             </a>
           </div>
         </div>

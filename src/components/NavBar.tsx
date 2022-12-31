@@ -21,12 +21,12 @@ function NavBar({ Y }: Props) {
             alt=""
             className="w-24 h-24 m-4 mr-12 border-solid border-slate-900 border-4 rounded-full"
           />
-          <ul className="items-stretch hidden space-x-3 lg:flex">
+          <ul className="items-stretch text-lg font-bold text-slate-100 hidden space-x-3 lg:flex">
             <li className="flex">
               <a
                 rel="noopener noreferrer"
                 href="#"
-                className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent"
+                className="flex hover:text-slate-900 items-center px-4 -mb-1 border-b-2 dark:border-transparent"
               >
                 Servicios
               </a>
@@ -52,11 +52,13 @@ function NavBar({ Y }: Props) {
           </ul>
         </div>
 
-        <div className="items-center border-solid border-sky-600 border-2 transition-all hover:bg-sky-600 duration-500 hover:border-solid hover:border-sky-900 hover:border-2  flex-shrink-0 hidden lg:flex">
+        <div
+          className={`items-center ${
+            Y < 50 ? "invisible" : ""
+          } border-solid border-sky-600 border-2 transition-all hover:bg-sky-600 duration-200 delay-none hover:border-solid hover:border-sky-900 hover:border-2  flex-shrink-0 hidden lg:flex`}
+        >
           <button
-            className={`px-8 py-3 ${
-              Y < 50 ? "text-slate-900" : "text-slate-100"
-            }  font-extrabold  text-xl rounded dark:bg-violet-400 dark:text-gray-900`}
+            className={`px-8 py-3  text-slate-100 font-extrabold  text-xl rounded dark:bg-violet-400 dark:text-gray-900`}
           >
             Contact
           </button>

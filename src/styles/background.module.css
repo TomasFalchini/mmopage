@@ -4,3 +4,10 @@
   background-blend-mode: multiply;
   background-size: cover;
 }
+
+.back {
+  background: url("../images/plano.jpg");
+  background-position: center center;
+  background-blend-mode: multiply;
+  background-size: cover;
+}
